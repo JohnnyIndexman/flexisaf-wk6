@@ -25,6 +25,7 @@
     object-fit: contain;
     overflow: hidden;
     background-color: #fff;
+    color: #02085f;
 }
 
 img {
@@ -34,24 +35,8 @@ img {
 
 h1{
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0 50px 0;
     color: #fff;
-}
-
-.banner {
-    box-sizing: border-box;
-    /* background-image: url('../assets/images/pexels-photo-18572796.webp'); */
-    background-color: rgb(139, 247, 139);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
 }
 
 .home h2 {
@@ -72,15 +57,6 @@ h3 {
     flex-wrap: nowrap;
 }
 
-/* .video {
-    height: 300px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
 .video-background {
     position: absolute;
     top: 0;
@@ -90,3 +66,40 @@ h3 {
     object-fit: cover;
     z-index: -1;
   }
+
+  @media (max-width: 768px) {
+    .products {
+        margin-top: 30px;
+    }
+
+    .product {
+        width: 47%;
+        height: 300px;
+    }
+
+    .cars{
+        flex-wrap: wrap;
+    }
+    
+  }
+
+  @media (max-width: 480px) {
+    .products {
+        margin-top: 20px;
+    }
+
+    .product {
+        width: 100%;
+        height: 200;
+        margin-bottom: 20px;
+    }
+
+    .cars {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+    
+  }
+}

@@ -19,7 +19,7 @@ nav {
 }
 
 nav h2 {
-    color: black;
+    color: #02085f;
     font-size: 30px;
 }
 
@@ -38,6 +38,10 @@ nav p {
     font-weight: 700;
 }
 
+.hamburger-react {
+    display: none;
+}
+
 button {
     display: flex;
     justify-content: center;
@@ -47,12 +51,73 @@ button {
     width: 150px;
     height: 50px;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 1px solid #02085f;;
     cursor: pointer;
     font-size: 15px;
+    color: #02085f;
 }
 
 button:hover {
     background-color: black;
     color: #fff;
+}
+
+@media(max-width: 768px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .hamburger-react {
+        display: block;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .hamburger-menu {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        background-color:  rgb(139, 247, 139);
+        padding: 20px 0;
+        top: 50px;
+        height: 100%;
+        bottom: 0;
+        box-sizing: border-box;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .hamburger-menu a {
+        color: #02085f;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .hamburger-menu a:hover {
+        color: gray;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    nav h2 {
+        font-size: 18px;
+    }
 }
