@@ -1,0 +1,67 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "source": "https://images.pexels.com/photos/6212802/pexels-photo-6212802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Sprinter Series"
+        },
+        {
+            "id": 2,
+            "source": "https://images.pexels.com/photos/5214193/pexels-photo-5214193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Vintage"  
+        },
+        {
+            "id": 3,
+            "source": "https://images.pexels.com/photos/12191116/pexels-photo-12191116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Brand New"  
+        },
+        {
+            "id": 4,
+            "source": "https://images.pexels.com/photos/28891884/pexels-photo-28891884/free-photo-of-sleek-white-mercedes-benz-parked-by-glass-showroom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Latest C-class"  
+        }
+    ],
+    
+    "houses": [
+        {
+            "id": 1,
+            "source": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "4 Bedroom Duplex"
+        },
+        {
+            "id": 2,
+            "source": "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Emerald Estate"
+        },
+        {
+            "id": 3,
+            "source": "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Beach Houses"
+        },
+        {
+            "id": 4,
+            "source": "https://images.pexels.com/photos/250659/pexels-photo-250659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Palmer Estate"
+        },
+        {
+            "id": 5,
+            "source": "https://images.pexels.com/photos/772177/pexels-photo-772177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Green-ville Estate"
+        },
+        {
+            "id": 6,
+            "source": "https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Cape-ville Estate"
+        },
+        {
+            "id": 7,
+            "source": "https://images.pexels.com/photos/2121832/pexels-photo-2121832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "1001 Housing"
+        },
+        {
+            "id": 8,
+            "source": "https://images.pexels.com/photos/259637/pexels-photo-259637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "Spring-Valley Estate"
+        }
+    ]
+}

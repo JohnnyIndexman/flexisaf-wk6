@@ -1,0 +1,58 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(139, 247, 139);
+    z-index: 1;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav h2 {
+    color: black;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: gray;
+    
+}
+
+nav p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: black;
+    color: #fff;
+}

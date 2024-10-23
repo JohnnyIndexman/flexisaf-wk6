@@ -1,0 +1,16 @@
+.footer {
+    box-sizing: border-box;
+    box-shadow: 0 0 3px gray;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 247, 139);
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 700;
+}
